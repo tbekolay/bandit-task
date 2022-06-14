@@ -2,6 +2,21 @@
 Bandit task for Nengo 1.4
 *************************
 
+A set of bandit task models that show how a simulated rat
+responds in a number of different situations.
+Included are Nengo 1.4 scripts for
+a simple 3-arm bandit task (``bandit_task_3arm.py``),
+a 3-arm bandit task in which
+the environment changes in each block of trials
+(``bandit_task_3env.py``),
+and two scripts in which the environment
+switches faster so that the rat
+doesn't forget about environments
+encountered early in the set of trials
+(``bandit_task_halflearn.py`` and ``bandit_task_quarterlearn.py``).
+Data, plots, and Matplotlib scripts
+to generate the plots are also included.
+
 ``bandit_task_*.py`` files can be run from the
 `Nengo 1.4 GUI <https://www.nengo.ai/nengo-1.4/>`_.
 
